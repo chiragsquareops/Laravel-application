@@ -5,7 +5,8 @@ env:
     DB_PASSWORD: laravel-app:DB_PASSWORD
 phases:
   install:
-    runtime-versions: php: latest
+    runtime-versions: 
+      php: latest
     commands:
       - echo Installing...
   pre_build:
